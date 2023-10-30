@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/templates/home';
+export { default } from '@atomizedev/iam-engine/templates/home';

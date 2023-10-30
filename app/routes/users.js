@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/routes/users';
+export { default } from '@atomizedev/iam-engine/routes/users';

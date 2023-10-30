@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/components/modals/group-details';
+export { default } from '@atomizedev/iam-engine/components/modals/group-details';

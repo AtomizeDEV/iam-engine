@@ -1,5 +1,5 @@
 {
-    "name": "@fleetbase/iam-engine",
+    "name": "@atomizedev/iam-engine",
     "version": "0.0.6",
     "description": "Fleetbase IAM extension provides identity and access management module for managing users, permissions and policies.",
     "fleetbase": {
@@ -39,8 +39,8 @@
         "publish:github": "npm config set '@fleetbase:registry' https://npm.pkg.github.com/ && npm publish"
     },
     "dependencies": {
-        "@fleetbase/ember-core": "git@github.com/AtomizeDEV/ember-core.git", 
-        "@fleetbase/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
+        "@atomizedev/ember-core": "git@github.com/AtomizeDEV/ember-core.git", 
+        "@atomizedev/ember-ui": "git@github.com/AtomizeDEV/ember-ui.git", 
         "@fortawesome/ember-fontawesome": "^0.4.1",
         "@fortawesome/fontawesome-svg-core": "^6.4.0",
         "@fortawesome/free-solid-svg-icons": "^6.4.0",

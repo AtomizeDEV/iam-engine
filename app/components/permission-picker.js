@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/components/permission-picker';
+export { default } from '@atomizedev/iam-engine/components/permission-picker';

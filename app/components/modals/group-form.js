@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/components/modals/group-form';
+export { default } from '@atomizedev/iam-engine/components/modals/group-form';

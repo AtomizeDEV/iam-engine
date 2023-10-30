@@ -1,4 +1,4 @@
-# @fleetbase/iam-engine
+# @atomizedev/iam-engine
 
 [Short description of the addon.]
 
@@ -13,7 +13,7 @@
 ## Installation
 
 ```
-ember install @fleetbase/iam-engine
+ember install @atomizedev/iam-engine
 ```
 
 

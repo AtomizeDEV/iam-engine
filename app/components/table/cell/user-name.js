@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/components/table/cell/user-name';
+export { default } from '@atomizedev/iam-engine/components/table/cell/user-name';

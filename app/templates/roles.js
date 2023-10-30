@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/templates/roles';
+export { default } from '@atomizedev/iam-engine/templates/roles';

@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/iam-engine/templates/users/index';
+export { default } from '@atomizedev/iam-engine/templates/users/index';
