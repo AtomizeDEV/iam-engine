@@ -1,0 +1,129 @@
+iam:
+  extension-name: IAM
+  common:
+    address: Adres
+    bulk-action: Bulkactie
+    country: Land
+    create: Gemaakt
+    dashboard: Dashboard
+    description: Beschrijving
+    email: E-mail
+    export: Exporteren
+    group: Groepen
+    member: Leden
+    name: Naam
+    new: Nieuw
+    permission: Toestemming
+    phone: Telefoon
+    photo: foto's
+    policie: Beleid
+    primary: primair
+    role: Rollen
+    status: Status
+    type: Type
+    user: Gebruikers
+  components:
+    modals:
+      group-details:
+        group-name: Groepsnaam
+      group-form:
+        group-name: Groepsnaam
+        group-description: Groepsbeschrijving
+        select-users-add-group: Selecteer gebruikers om aan de groep toe te voegen
+        search-select-users-add-group: Zoek en selecteer gebruikers om aan deze groep toe te voegen.
+        select-user-add-group: Selecteer gebruiker om aan de groep toe te voegen
+        no-user-add-group: Geen gebruikers toegevoegd aan de groep
+      policy-form:
+        policy-name: Beleidsnaam
+        enter-name-your-policy: Voer een naam in voor uw beleid
+        policy-description: Beleidsbeschrijving
+        enter-description-your-policy: Voer een beschrijving in voor uw beleid
+        select-permissions: Selecteer Toestemmingen
+      role-form:
+        role-name: Rolnaam
+        enter-name-for-this-role: Voer een naam in voor deze rol
+        role-description: Rolbeschrijving
+        enter-description-your-role: Voer een beschrijving in voor uw rol
+        select-permission: Selecteer Toestemmingen
+    table:
+      group-members:
+        no-member: Geen leden
+    permission-picker:
+      selected: >-
+        Geselecteerd:
+      search-permissions-keyword: Zoek toestemmingen op trefwoorden
+      loading-permission: Toestemmingen laden...
+  groups:
+    index:
+      untitled: Zonder titel
+      delete-group-title: Verwijder {groupName} groep
+      delete-group-success-message: Groep {name} verwijderd.
+      delete-group: Verwijder Groepen
+      created: Gemaakt
+      edit-group: Bewerk groep...
+      delete-group-label: Verwijder groep...
+      new-group: Nieuwe Groep
+      new-group-created: Nieuwe groep gemaakt.
+      edit-group-title: Bewerk Groep
+      changes-group-save: Wijzigingen in de groep opgeslagen.
+      data-assosciated-this-group-deleted: Weet u zeker dat u deze groep wilt verwijderen? Alle gegevens die aan deze groep zijn gekoppeld, worden ook verwijderd. Deze actie kan niet ongedaan worden gemaakt.
+  policies:
+    index:
+      title: Beleid
+      delete-policies: Verwijder Beleid
+      contact-action: Contactacties
+      edit-policy: Bewerk beleid...
+      delete-policy: Verwijder beleid...
+      new-policy: Nieuw Beleid
+      new-policy-created: Nieuw beleid gemaakt.
+      unable-changes-policy-warning: Kan geen wijzigingen aanbrengen in een {policyType} beleid.
+      edit-policy-title: Bewerk Beleid
+      changes-policy-saved-success: Wijzigingen in beleid opgeslagen.
+      unable-delete-policy-warning: Kan een {policyType} beleid niet verwijderen.
+      data-assosciated-this-policy-deleted: Weet u zeker dat u dit beleid wilt verwijderen? Alle gegevens die aan dit beleid zijn gekoppeld, worden ook verwijderd. Deze actie kan niet ongedaan worden gemaakt.
+      policy-deleted: Beleid {policyName} verwijderd.
+  roles:
+    index:
+      delete-roles: Verwijder Rollen
+      contact-action: Contactacties
+      edit-role: Bewerk rol...
+      delete-role: Verwijder rol...
+      new-role: Nieuwe Rol
+      new-role-create: Nieuwe rol gemaakt
+      edit-role-title: Bewerk Rol
+      changes-role-saved: Wijzigingen in rol opgeslagen.
+      data-assosciated-this-role-deleted: Weet u zeker dat u deze rol wilt verwijderen? Alle gegevens die aan deze rol zijn gekoppeld, worden ook verwijderd. Deze actie kan niet ongedaan worden gemaakt.
+      role-deleted: Rol {roleName} verwijderd.
+  users:
+    index:
+      delete-user-title: Verwijder {userName} gebruiker
+      delete-user-success-message: Gebruiker {userName} verwijderd.
+      deactivate-user-title: Deactiveer het account van gebruiker {userName}
+      deactivate-user-success-message: Gebruiker {userName} gedeactiveerd.
+      re-activate-user-title: Activeer het account van gebruiker {userName} opnieuw
+      re-activate-user-success-message: Gebruiker {userName} geactiveerd.
+      delete-users: Verwijder Gebruikers
+      last-login: Laatste Login
+      created-at: Gemaakt Op
+      updated-at: Bijgewerkt Op
+      contact-action: Contactacties
+      edit-user: Bewerk gebruiker...
+      re-send-invitation: Stuur uitnodiging opnieuw...
+      deactivate-user: Deactiveer gebruiker...
+      activate-user: Activeer gebruiker...
+      delete-user: Verwijder gebruiker...
+      new-user: Nieuwe Gebruiker
+      user-invited-join-your-organization-success: Gebruiker is uitgenodigd om zich bij uw organisatie aan te sluiten.
+      edit-user-title: Bewerk Gebruiker
+      user-changes-saved-success: Gebruikerswijzigingen opgeslagen.
+      error-you-cant-delete-yourself: U kunt uzelf niet verwijderen
+      data-assosciated-user-delete: Weet u zeker dat u deze gebruiker wilt verwijderen? Alle gegevens die aan deze gebruiker zijn gekoppeld, worden ook verwijderd. Deze actie kan niet ongedaan worden gemaakt.
+      access-account-or-resources-unless-re-activated: Weet u zeker dat u deze gebruiker wilt deactiveren? Deze gebruiker zal geen toegang meer hebben tot zijn account of bronnen, tenzij opnieuw geactiveerd.
+      this-user-will-regain-access-to-your-organization: Weet u zeker dat u deze gebruiker opnieuw wilt activeren? Deze gebruiker krijgt opnieuw toegang tot uw organisatie.
+      resend-invitation-to-join-organization: Stuur uitnodiging opnieuw om zich bij de organisatie aan te sluiten
+      confirming-fleetbase-will-re-send-invitation-for-user-to-join-your-organization: Door te bevestigen zal Fleetbase de uitnodiging opnieuw verzenden voor deze gebruiker om zich bij uw organisatie aan te sluiten.
+      invitation-resent: Uitnodiging opnieuw verzonden.
+  application:
+      access-management: Toegangsbeheer
+  home:
+      identity-access-management: Identiteits- & Toegangsbeheer

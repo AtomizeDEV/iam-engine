@@ -1,0 +1,129 @@
+iam:
+  extension-name: IAM
+  common:
+    address: Adres
+    bulk-action: Akcja zbiorcza
+    country: Kraj
+    create: Utworzono
+    dashboard: Panel
+    description: Opis
+    email: Email
+    export: Eksport
+    group: Grupy
+    member: Członkowie
+    name: Nazwa
+    new: Nowy
+    permission: Uprawnienia
+    phone: Telefon
+    photo: zdjęcia
+    policie: Polityki
+    primary: główny
+    role: Role
+    status: Status
+    type: Typ
+    user: Użytkownicy
+  components:
+    modals:
+      group-details:
+        group-name: Nazwa grupy
+      group-form:
+        group-name: Nazwa grupy
+        group-description: Opis grupy
+        select-users-add-group: Wybierz użytkowników do dodania do grupy
+        search-select-users-add-group: Szukaj i wybierz użytkowników do dodania do tej grupy.
+        select-user-add-group: Wybierz użytkownika do dodania do grupy
+        no-user-add-group: Brak dodanych użytkowników do grupy
+      policy-form:
+        policy-name: Nazwa polityki
+        enter-name-your-policy: Wprowadź nazwę dla twojej polityki
+        policy-description: Opis polityki
+        enter-description-your-policy: Wprowadź opis dla twojej polityki
+        select-permissions: Wybierz uprawnienia
+      role-form:
+        role-name: Nazwa roli
+        enter-name-for-this-role: Wprowadź nazwę dla tej roli
+        role-description: Opis roli
+        enter-description-your-role: Wprowadź opis dla twojej roli
+        select-permission: Wybierz uprawnienia
+    table:
+      group-members:
+        no-member: Brak członków
+    permission-picker:
+      selected: >-
+        Wybrane:
+      search-permissions-keyword: Szukaj uprawnień po słowach kluczowych
+      loading-permission: Ładowanie uprawnień...
+  groups:
+    index:
+      untitled: Bez tytułu
+      delete-group-title: Usuń grupę {groupName}
+      delete-group-success-message: Grupa {name} usunięta.
+      delete-group: Usuń grupy
+      created: Utworzono
+      edit-group: Edytuj grupę...
+      delete-group-label: Usuń grupę...
+      new-group: Nowa grupa
+      new-group-created: Nowa grupa utworzona.
+      edit-group-title: Edytuj grupę
+      changes-group-save: Zmiany w grupie zapisane.
+      data-assosciated-this-group-deleted: Czy na pewno chcesz usunąć tę grupę? Wszystkie dane powiązane z tą grupą zostaną również usunięte. Ta akcja nie może zostać cofnięta.
+  policies:
+    index:
+      title: Polityki
+      delete-policies: Usuń polityki
+      contact-action: Akcje kontaktowe
+      edit-policy: Edytuj politykę...
+      delete-policy: Usuń politykę...
+      new-policy: Nowa polityka
+      new-policy-created: Nowa polityka utworzona.
+      unable-changes-policy-warning: Nie można wprowadzić zmian w polityce {policyType}.
+      edit-policy-title: Edytuj politykę
+      changes-policy-saved-success: Zmiany w polityce zapisane.
+      unable-delete-policy-warning: Nie można usunąć polityki {policyType}.
+      data-assosciated-this-policy-deleted: Czy na pewno chcesz usunąć tę politykę? Wszystkie dane powiązane z tą polityką zostaną również usunięte. Ta akcja nie może zostać cofnięta.
+      policy-deleted: Polityka {policyName} usunięta.
+  roles:
+    index:
+      delete-roles: Usuń role
+      contact-action: Akcje kontaktowe
+      edit-role: Edytuj rolę...
+      delete-role: Usuń rolę...
+      new-role: Nowa rola
+      new-role-create: Nowa rola utworzona
+      edit-role-title: Edytuj rolę
+      changes-role-saved: Zmiany w roli zapisane.
+      data-assosciated-this-role-deleted: Czy na pewno chcesz usunąć tę rolę? Wszystkie dane powiązane z tą rolą zostaną również usunięte. Ta akcja nie może zostać cofnięta.
+      role-deleted: Rola {roleName} usunięta.
+  users:
+    index:
+      delete-user-title: Usuń użytkownika {userName}
+      delete-user-success-message: Użytkownik {userName} usunięty.
+      deactivate-user-title: Dezaktywuj konto użytkownika {userName}
+      deactivate-user-success-message: Użytkownik {userName} dezaktywowany.
+      re-activate-user-title: Reaktywuj konto użytkownika {userName}
+      re-activate-user-success-message: Użytkownik {userName} aktywowany.
+      delete-users: Usuń użytkowników
+      last-login: Ostatnie logowanie
+      created-at: Utworzono w
+      updated-at: Zaktualizowano w
+      contact-action: Akcje kontaktowe
+      edit-user: Edytuj użytkownika...
+      re-send-invitation: Wyślij ponownie zaproszenie...
+      deactivate-user: Dezaktywuj użytkownika...
+      activate-user: Aktywuj użytkownika...
+      delete-user: Usuń użytkownika...
+      new-user: Nowy użytkownik
+      user-invited-join-your-organization-success: Użytkownik został zaproszony do twojej organizacji.
+      edit-user-title: Edytuj użytkownika
+      user-changes-saved-success: Zmiany użytkownika zapisane.
+      error-you-cant-delete-yourself: Nie możesz usunąć siebie
+      data-assosciated-user-delete: Czy na pewno chcesz usunąć tego użytkownika? Wszystkie dane powiązane z tym użytkownikiem zostaną również usunięte. Ta akcja nie może zostać cofnięta.
+      access-account-or-resources-unless-re-activated: Czy na pewno chcesz dezaktywować tego użytkownika? Ten użytkownik nie będzie mógł uzyskać dostępu do swojego konta ani zasobów, chyba że zostanie ponownie aktywowany.
+      this-user-will-regain-access-to-your-organization: Czy na pewno chcesz ponownie aktywować tego użytkownika? Ten użytkownik odzyska dostęp do twojej organizacji.
+      resend-invitation-to-join-organization: Wyślij ponownie zaproszenie do dołączenia do organizacji
+      confirming-fleetbase-will-re-send-invitation-for-user-to-join-your-organization: Potwierdzając, Fastlane ponownie wyśle zaproszenie dla tego użytkownika do dołączenia do twojej organizacji.
+      invitation-resent: Zaproszenie wysłane ponownie.
+  application:
+      access-management: Zarządzanie dostępem
+  home:
+      identity-access-management: Zarządzanie tożsamością i dostępem
